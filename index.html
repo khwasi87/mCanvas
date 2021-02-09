@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>mCanvas</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/ico/mcanvas-logo.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <section>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <a class="navbar-brand ml-5" href="#"><img src="img/logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#mdsec">Our story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#btsec">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="view intro-2" style="">
+            <div class="full-bg-img">
+                <div class="mask flex-center">
+                    <div class="container">
+                        <div class="section__Box py-5">
+                            <div class="row">
+                                <div class="col celimg">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="img-fluid" src="img/mobile.png" alt="mobile">
+                                    </div>
+                                </div>
+                                <div class="col d-flex justify-content-center align-items-center">
+                                    <div class="white-text wow fadeInUp">
+                                        <h2>This Navbar is fixed and transparent</h2>
+                                        <h5>It will always stay visible on the top, even when you scroll down</h5>
+                                        <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+                                        <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="middle-section" id="mdsec">
+        <div class="container">
+            <div class="middle-box col-12 col-md-10">
+                <div class="middle-box__content-box">
+                    <div class="content-box__Mid-title-box col-12 col-md-6 text-capitalize text-center">
+                        <h2>Our short story</h2>
+                        <p>We make every thing snackable.</p>
+                    </div>
+                    <div class="content-box__label-box d-grid gap-3">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-sm-12 text-center">
+                                <h2>Concievd</h2>
+                                <div class="label-box__label-yellow">
+                                    <span>November</span>
+                                    <h2>2014</h2>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-12 text-center">
+                                <h2>Born</h2>
+                                <div class="label-box__label-green">
+                                    <span>Februery</span>
+                                    <h2>2015</h2>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-12 text-center">
+                                <h2>Romanced</h2>
+                                <div class="label-box__label-pink">
+                                    <p>over<span style="font-weight:700; font-size: 25px;">100 </span> Brand in just 12 months
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 text-center">
+                        <p style="font-weight:700; font-size: 1em;">Yes, that's young and fast. And we are just getting started.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section" id="btsec">
+        <div class="container">
+            <div class="bottom-box">
+                <div class="bottom-box__content-box">
+                    <div class="bottom-box__Mid-title-box col-12 col-md-6 text-capitalize text-wrap text-center">
+                        <h2>How do i start telling stories to consumers?</h2>
+                        <p>It is easy as abc</p>
+                    </div>
+                    <div class="bottom-box__content-box__label-box text-center text-white">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                                <div class="d-block">
+                                    <h2>Lets Have Conversation</h2>
+                                    <div>
+                                        <a href="Email:m-canvas@affinity.com" class="text-success">m-canvas@affinity.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 form-sec">
+                                <div id="error_message"></div>
+                                <form action="form-submit" id="myform" onsubmit="return validate();">
+                                    <div class="col form-group">
+                                        <div class="md-form md-outline">
+                                            <input type="text" id="uName" class="form-control py-3">
+                                            <label for="uName">Name <span class="text-danger">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col form-group">
+                                        <div class="md-form md-outline">
+                                            <input type="text" id="uEmail" class="form-control py-3">
+                                            <label for="uEmail">Email <span class="text-danger">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col form-group">
+                                        <div class="md-form md-outline">
+                                            <input type="text" id="uPhone" class="form-control py-3">
+                                            <label for="uPhone">Phone No <span class="text-danger">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col form-group">
+                                        <div class="md-form md-outline">
+                                            <textarea id="textarea-char-counter" class="form-control md-textarea py-3" length="120" rows="5"></textarea>
+                                            <label for="textarea-char-counter">Message <span
+                                                    class="text-danger">*</span></label>
+                                            <small id="MessageHelp" class="form-text text-muted text-left">Must be
+                                                atleast 100 character</small>
+                                        </div>
+                                    </div>
+                                    <div class="col form-group">
+                                        <button type="submit" value="submit" class="btn btn-dark-green float-right rounded-lg mb-0">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main Navigation-->
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mcanvas.com/"> mcanvas.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="src/js/vendor/addons/jquery.easing.min.js"></script>
+
+    <script type="text/javascript" src="js/scrolling-nav.js"></script>
+
+    <script type="text/javascript" src="js/style.js"></script>
+    <!-- Your custom scripts (optional) -->
+
+</body>
+
+</html>
